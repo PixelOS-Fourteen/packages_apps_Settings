@@ -80,4 +80,7 @@
     <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
     <string name="gesture_wake_ambient">Show Ambient</string>
     <string name="gesture_wake">Fully wake</string>
+
+    <!-- Max refresh rate -->
+    <string name="max_refresh_rate_title">Peak refresh rate</string>
 </resources>
