@@ -324,4 +324,12 @@
     <!-- Less boring heads up -->
     <string name="less_boring_heads_up_title">Saner heads up</string>
     <string name="less_boring_heads_up_summary">Show heads up only for calls, messages, alarms, reminders and priority conversations</string>
+
+    <!-- Low Gamma -->
+    <string name="low_gamma_title">Gamma correction</string>
+    <string name="low_gamma_summary">Enable or disable gamma correction for low brightness. A SystemUI restart is required</string>
+    <string name="systemui_restart_title">Restart SystemUI</string>
+    <string name="systemui_restart_message">Do you want to restart SystemUI to apply changes?</string>
+    <string name="ok">Restart</string>
+    <string name="cancel">Cancel</string>
 </resources>
