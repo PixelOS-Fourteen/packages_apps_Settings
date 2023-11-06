@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2020-2023 PixelOS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
+    <string name="category_name_refresh_rate_controls">Obnovovacia frekvencia</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">Informácie o rádiu</string>
+    <!-- General -->
+    <string name="copied_to_clipboard">Skopírované do schránky</string>
+    <string name="longpress_to_clipboard">Dlhým stlačením skopírujete</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Potiahnutím urobiť snímku obrazovky</string>
+    <string name="three_finger_gesture_summary">Potiahnutím nadol troma prstami urobiť snímku obrazovky</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
+    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Ovládanie prehrávania</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Rýchla baterka</string>
+    <string name="power_button_torch_summary">Keď je obrazovka vypnutá, dlhým stlačením tlačidla napájania aktivujete baterku</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Minimálny čas medzi zvukmi upozornenia</string>
+    <string name="app_notification_sound_timeout_summary_template">Povoliť zvuky alebo vibrácie nie viac ako raz za <xliff:g id="duration">%1$s </xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Bez obmedzení</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 sekúnd</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 sekúnd</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minúta</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minút</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minút</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minút</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_summary">Ovládať viditeľnosť ikon stavového riadku</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Povoliť rozšírený reštart</string>
+    <string name="global_actions_advanced_reboot_summary">V ponuke napájania zobrazte možnosti režimu recovery a bootloadera</string>
+    <!-- Navbar options -->
+    <string name="navbar_category">Navigation bar</string>
+    <string name="navbar_invert_layout_title">Prevrátiť rozloženie navigačného panela</string>
+    <string name="navbar_invert_info">Prehodiť tlačidlá \"Späť\" a \"Nedávne\" na navigačnom paneli</string>
+    <string name="hide_navbar_gesture_bar_title">Hide gesture bar</string>
+    <string name="hide_navbar_gesture_bar_summary">Hide the gesture bar at the bottom of the screen</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Použiť čiernu tému</string>
+    <string name="system_black_theme_summary">Vynútiť čiernu farbu pozadia</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Inteligentné 5G</string>
+    <string name="smart_5g_summary">Automaticky prepínať medzi 5G a 4G na zníženie spotreby batérie</string>
+</resources>

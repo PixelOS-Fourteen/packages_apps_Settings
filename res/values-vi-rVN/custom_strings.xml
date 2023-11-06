@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2020-2023 PixelOS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
+    <string name="category_name_refresh_rate_controls">Tần số quét</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">Thông tin sóng điện thoại</string>
+    <!-- General -->
+    <string name="copied_to_clipboard">Đã sao chép vào khay nhớ tạm</string>
+    <string name="longpress_to_clipboard">Nhấn và giữ để sao chép</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Vuốt để chụp ảnh màn hình</string>
+    <string name="three_finger_gesture_summary">Vuốt ba ngón tay để chụp ảnh màn hình</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
+    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Điều khiển phát lại</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Đèn pin nhanh</string>
+    <string name="power_button_torch_summary">Khi màn hình tắt, nhấn và giữ nút nguồn sẽ bật đèn pin</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Thời gian tối thiểu giữa các âm thanh thông báo</string>
+    <string name="app_notification_sound_timeout_summary_template">Cho phép âm thanh hoặc rung không nhiều hơn một lần mỗi <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Không giới hạn</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 giây</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 giây</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 phút</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 phút</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 phút</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 phút</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_summary">Điều chỉnh các biểu tượng trên thanh trạng thái</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Bật khởi động lại nâng cao</string>
+    <string name="global_actions_advanced_reboot_summary">Hiển thị thêm mục khởi động lại vào recovery và bootloader</string>
+    <!-- Navbar options -->
+    <string name="navbar_category">Navigation bar</string>
+    <string name="navbar_invert_layout_title">Đảo ngược bố cục thanh điều hướng</string>
+    <string name="navbar_invert_info">Hoán đổi nút \"Quay về\" và \"Gần đây\" trên thanh điều hướng</string>
+    <string name="hide_navbar_gesture_bar_title">Hide gesture bar</string>
+    <string name="hide_navbar_gesture_bar_summary">Hide the gesture bar at the bottom of the screen</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Sử dụng chủ đề tối</string>
+    <string name="system_black_theme_summary">Buộc màu nền tối</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">5G Thông minh</string>
+    <string name="smart_5g_summary">Tự động chuyển đổi giữa mạng 5G và 4G để giảm tiêu thụ pin</string>
+</resources>

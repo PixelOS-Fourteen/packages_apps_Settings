@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2020-2023 PixelOS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
+    <string name="category_name_refresh_rate_controls">Частота оновлення</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">Інформація про радіо</string>
+    <!-- General -->
+    <string name="copied_to_clipboard">Скопійовано до буферу обміну.</string>
+    <string name="longpress_to_clipboard">Довге натискання для копіювання</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Жест для створення скріншота</string>
+    <string name="three_finger_gesture_summary">Проведіть вниз трьома пальцями на екрані, щоб зробити знімок екрану</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Перемикання між режимами</string>
+    <string name="prevent_ringing_option_cycle_summary">Увімкнено (перемик. між режимами)</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Керування відтворенням медіа</string>
+    <string name="volume_button_music_control_summary">Коли екран вимкнений, тривале натискання клавіш регулювання гучності буде перемикати музичні композиції</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Швидкий ліхтарик</string>
+    <string name="power_button_torch_summary">Коли екран вимкнений, тривале натискання кнопки живлення увімкне ліхтарик</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Мінімальний час між звуками повідомлень</string>
+    <string name="app_notification_sound_timeout_summary_template">Дозволити звук або вібрацію не більше ніж один раз кожні <xliff:g id="duration">%1$s </xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Без обмежень</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 секунд</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 секунд</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 хвилина</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 хвилин</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 хвилин</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 хвилин</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Менеджер іконок</string>
+    <string name="icon_manager_summary">Налаштування видимості значків рядка стану</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Ввімкнути розширене перезавантаження</string>
+    <string name="global_actions_advanced_reboot_summary">Показувати параметри відновлення і завантажувача в меню живлення</string>
+    <!-- Navbar options -->
+    <string name="navbar_category">Панель навігації</string>
+    <string name="navbar_invert_layout_title">Інвертувати відображення панелі навігації</string>
+    <string name="navbar_invert_info">Поміняти місцями кнопки \"Назад\" та \"Нещодавні\" на панелі навігації</string>
+    <string name="hide_navbar_gesture_bar_title">Приховати панель жестів</string>
+    <string name="hide_navbar_gesture_bar_summary">Сховати панель жестів у нижній частині екрана</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Використовувати чорну тему</string>
+    <string name="system_black_theme_summary">Примусово використовувати чорні кольори фону</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Розумний 5G</string>
+    <string name="smart_5g_summary">Автоматично переключати між 5G та 4G, щоб зменшити споживання заряду акумулятора</string>
+</resources>
