@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2020-2023 PixelOS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
+    <string name="category_name_refresh_rate_controls">Frissítési érték</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">Rádióinformációk</string>
+    <!-- General -->
+    <string name="copied_to_clipboard">Vágólapra másolva</string>
+    <string name="longpress_to_clipboard">Másolás hosszannyomással</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Képernyőkép csúsztatással</string>
+    <string name="three_finger_gesture_summary">Képernyőkép készítéséhez húzza egyszerre három ujját lefelé a képernyőn</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Üzemmódok közötti váltás</string>
+    <string name="prevent_ringing_option_cycle_summary">Be (üzemmódok közötti váltás)</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Lejátszásvezérlő</string>
+    <string name="volume_button_music_control_summary">Ha a képernyő ki van kapcsolva, a hangerő-gombok hosszú megnyomásával zeneszámokat ugorhat át</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Zseblámpa gyorsan</string>
+    <string name="power_button_torch_summary">Kikapcsolt képernyőnél, a bekapcsológomb hosszan nyomására a zseblámpa bekapcsol</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Értesítési hangok közötti minimum időtartam</string>
+    <string name="app_notification_sound_timeout_summary_template"><xliff:g id="duration">%1$s</xliff:g> alatt egy értesítési hang vagy rezgés engedélyezett</string>
+    <string name="app_notification_sound_timeout_value_none">Nincs korlátozás</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 másodperc</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 másodperc</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 perc</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 perc</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 perc</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 perc</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Ikonkezelő</string>
+    <string name="icon_manager_summary">Az állapotsori ikonoláthatóság beállítása</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">A \'Speciális újraindítás\' engedélyezése</string>
+    <string name="global_actions_advanced_reboot_summary">A recovery és bootloader opciók megjelenítése a kikapcsoló menüben</string>
+    <!-- Navbar options -->
+    <string name="navbar_category">Navigációs sáv</string>
+    <string name="navbar_invert_layout_title">Fordított navigációssáv-elrendezés</string>
+    <string name="navbar_invert_info">A \'Vissza\' és az \'Előzmények\' gomb cseréje a navigációban</string>
+    <string name="hide_navbar_gesture_bar_title">Gesztussáv-rejtés</string>
+    <string name="hide_navbar_gesture_bar_summary">A gesztussáv elrejtése a képernyő alján</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Sötét téma</string>
+    <string name="system_black_theme_summary">Erőlteti a fekete háttérszíneket</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Okos 5G</string>
+    <string name="smart_5g_summary">Az akkufogyasztás csökkentése érdekében automatikusan vált az 5G és a 4G között</string>
+</resources>

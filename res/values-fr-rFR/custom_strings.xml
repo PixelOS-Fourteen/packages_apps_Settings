@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2020-2023 PixelOS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
+    <string name="category_name_refresh_rate_controls">Taux de raffraichissement</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">Infos radio</string>
+    <!-- General -->
+    <string name="copied_to_clipboard">Copié dans le presse-papier</string>
+    <string name="longpress_to_clipboard">Appui long pour copier</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Balayer pour réaliser une capture d\'écran</string>
+    <string name="three_finger_gesture_summary">Balayez vers le bas avec trois doigts pour réaliser une capture d’écran</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Alterner entre les modes</string>
+    <string name="prevent_ringing_option_cycle_summary">Activé (alterner entre les modes)</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Contrôle du lecteur de musique</string>
+    <string name="volume_button_music_control_summary">Lorsque l\'écran est éteint, un appui long sur les touches de volume permet de passer les pistes musicales</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Lampe de poche rapide</string>
+    <string name="power_button_torch_summary">Lorsque l\'écran est éteint, un appui long sur le bouton d\'alimentation activera la lampe de poche</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Délai minimum entre les sons des notifications</string>
+    <string name="app_notification_sound_timeout_summary_template">Permettre des sons ou des vibrations pas plus d’une fois chaque <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Pas de restriction</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 secondes</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 secondes</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minute</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minutes</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Gestionnaire d\'icônes</string>
+    <string name="icon_manager_summary">Contrôle de la visibilité des icônes de la barre d\'état</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Activer le redémarrage avancé</string>
+    <string name="global_actions_advanced_reboot_summary">Afficher les options pour le mode recovery et le mode bootloader dans le menu d\'alimentation</string>
+    <!-- Navbar options -->
+    <string name="navbar_category">Barre de navigation</string>
+    <string name="navbar_invert_layout_title">Inverser la disposition de la barre de navigation</string>
+    <string name="navbar_invert_info">Intervertir les boutons \"Back\" et \"Recents\" de la barre de navigation</string>
+    <string name="hide_navbar_gesture_bar_title">Masquer la barre de gestes</string>
+    <string name="hide_navbar_gesture_bar_summary">Masquer la barre de gestes en bas de l\'écran</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Utiliser le thème sombre</string>
+    <string name="system_black_theme_summary">Forcer l\'utilisation de couleurs d\'arrière-plan sombres</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">5G Intelligente</string>
+    <string name="smart_5g_summary">Basculer automatiquement entre 5G et 4G pour réduire la consommation de la batterie</string>
+</resources>

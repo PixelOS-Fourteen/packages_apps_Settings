@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2020-2023 PixelOS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
+    <string name="category_name_refresh_rate_controls">更新率</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">無線連接資訊</string>
+    <!-- General -->
+    <string name="copied_to_clipboard">已複製到剪貼簿</string>
+    <string name="longpress_to_clipboard">長按複製</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">滑動以擷取螢幕畫面</string>
+    <string name="three_finger_gesture_summary">用三根手指向下滑動以擷取螢幕畫面</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
+    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">媒體播放控制</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">快速開啟手電筒</string>
+    <string name="power_button_torch_summary">當螢幕關閉時，長按電源鍵會開啟手電筒</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">通知音效之間的最短時間</string>
+    <string name="app_notification_sound_timeout_summary_template">每 <xliff:g id="duration">%1$s</xliff:g> 只允許一次音效或震動</string>
+    <string name="app_notification_sound_timeout_value_none">無限制</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 秒鐘</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 秒鐘</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 分鐘</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 分鐘</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 分鐘</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 分鐘</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_summary">狀態列圖示的顯示開關</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">啟用進階重啟選單</string>
+    <string name="global_actions_advanced_reboot_summary">在電源選單中顯示 Recovery 和 Bootloader 選項</string>
+    <!-- Navbar options -->
+    <string name="navbar_category">Navigation bar</string>
+    <string name="navbar_invert_layout_title">反轉導覽列配置</string>
+    <string name="navbar_invert_info">對換導覽列上的返回及總覽鍵</string>
+    <string name="hide_navbar_gesture_bar_title">Hide gesture bar</string>
+    <string name="hide_navbar_gesture_bar_summary">Hide the gesture bar at the bottom of the screen</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">使用黑色主題</string>
+    <string name="system_black_theme_summary">強制使用黑色背景</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">智慧 5G</string>
+    <string name="smart_5g_summary">自動在 5G 和 4G 之間切換以減少電池的消耗</string>
+</resources>

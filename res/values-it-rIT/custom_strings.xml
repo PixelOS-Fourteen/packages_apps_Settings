@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2020-2023 PixelOS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
+    <string name="category_name_refresh_rate_controls">Frequenza d\'aggiornamento</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">Informazioni radio</string>
+    <!-- General -->
+    <string name="copied_to_clipboard">Copiato negli appunti</string>
+    <string name="longpress_to_clipboard">Pressione prolungata per copiare</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Swipe per acquisire uno screenshot</string>
+    <string name="three_finger_gesture_summary">Fai swipe verso il basso per acquisire uno screenshot</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Scorri tra le modalità</string>
+    <string name="prevent_ringing_option_cycle_summary">Attivo (passa da una modalità all\'altra)</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Controlli per la riproduzione</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Torcia veloce</string>
+    <string name="power_button_torch_summary">Quando lo schermo è spento, la pressione prolungata del pulsante d\'accensione attiverà la torcia</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Tempo minimo tra suoni di notifica</string>
+    <string name="app_notification_sound_timeout_summary_template">Consenti suoni o vibrazioni non più di una volta ogni <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Nessuna limitazione</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 secondi</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 secondi</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minuto</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minuti</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minuti</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minuti</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_summary">Controlla la visibilità delle icone sulla barra di stato</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Abilita riavvio avanzato</string>
+    <string name="global_actions_advanced_reboot_summary">Mostra opzioni per recovery e bootloader nel menu di spegnimento</string>
+    <!-- Navbar options -->
+    <string name="navbar_category">Navigation bar</string>
+    <string name="navbar_invert_layout_title">Inverte la disposizione della barra di navigazione</string>
+    <string name="navbar_invert_info">Scambio dei pulsanti \"Indietro\" e \"Recenti\" sulla barra di navigazione</string>
+    <string name="hide_navbar_gesture_bar_title">Hide gesture bar</string>
+    <string name="hide_navbar_gesture_bar_summary">Hide the gesture bar at the bottom of the screen</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Usa tema nero</string>
+    <string name="system_black_theme_summary">Forza colori di sfondo neri</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Smart 5G</string>
+    <string name="smart_5g_summary">Passa automaticamente tra 5G e 4G per ridurre il consumo di batteria</string>
+</resources>

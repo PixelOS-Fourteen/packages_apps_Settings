@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2020-2023 PixelOS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
+    <string name="category_name_refresh_rate_controls">화면 재생률</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">전파 정보</string>
+    <!-- General -->
+    <string name="copied_to_clipboard">클립보드에 복사됨</string>
+    <string name="longpress_to_clipboard">길게 눌러 복사</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">스와이프하여 캡처</string>
+    <string name="three_finger_gesture_summary">화면을 세 손가락으로 쓸어내려 캡처</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
+    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">재생 컨트롤</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">빠른 손전등</string>
+    <string name="power_button_torch_summary">화면이 꺼져있을 때 전원 버튼을 길게 눌러 손전등 켜기</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">알림음 최소 시간 간격</string>
+    <string name="app_notification_sound_timeout_summary_template"><xliff:g id="duration">%1$s</xliff:g>에 한 번만 알림음 또는 진동을 허용</string>
+    <string name="app_notification_sound_timeout_value_none">제한 없음</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10초</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30초</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1분</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5분</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10분</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30분</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_summary">상태 표시줄 아이콘의 표시 여부 설정</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">고급 다시 시작 사용</string>
+    <string name="global_actions_advanced_reboot_summary">전원 메뉴에 복구 모드 및 부트로더로 다시 시작 옵션 표시</string>
+    <!-- Navbar options -->
+    <string name="navbar_category">Navigation bar</string>
+    <string name="navbar_invert_layout_title">내비게이션 바 레이아웃 반전</string>
+    <string name="navbar_invert_info">네비게이션 바의 뒤로가기 버튼과 최근 앱 버튼의 위치 바꾸기</string>
+    <string name="hide_navbar_gesture_bar_title">Hide gesture bar</string>
+    <string name="hide_navbar_gesture_bar_summary">Hide the gesture bar at the bottom of the screen</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Use Black theme</string>
+    <string name="system_black_theme_summary">Force black background colors</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Smart 5G</string>
+    <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
+</resources>

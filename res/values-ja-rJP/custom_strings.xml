@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2020-2023 PixelOS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
+    <string name="category_name_refresh_rate_controls">リフレッシュレート</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">無線の情報</string>
+    <!-- General -->
+    <string name="copied_to_clipboard">クリップボードにコピー</string>
+    <string name="longpress_to_clipboard">長押しでコピー</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">スワイプでスクリーンショット</string>
+    <string name="three_finger_gesture_summary">スクリーンショットを撮影するには3本の指を画面上でスワイプダウンします</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
+    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">再生コントロール</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">クイックライト</string>
+    <string name="power_button_torch_summary">画面消灯時に電源ボタンの長押しでトーチを有効にする</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">連続したシェイクの間の最小時間</string>
+    <string name="app_notification_sound_timeout_summary_template"><xliff:g id="duration">%1$s</xliff:g>間に1回以上の通知音またはバイブレーションを許可しない</string>
+    <string name="app_notification_sound_timeout_value_none">制限なし</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10秒</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30秒</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1分</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5分</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10分</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30分</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_summary">ステータスバーのアイコンの表示を制御する</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">高度な再起動の有効化</string>
+    <string name="global_actions_advanced_reboot_summary">電源メニューにリカバリーとブートローダーのオプションを表示する</string>
+    <!-- Navbar options -->
+    <string name="navbar_category">Navigation bar</string>
+    <string name="navbar_invert_layout_title">ナビゲーションバーのレイアウトを反転する</string>
+    <string name="navbar_invert_info">ナビゲーションバーの戻るボタンとアプリ履歴を入れ替える</string>
+    <string name="hide_navbar_gesture_bar_title">Hide gesture bar</string>
+    <string name="hide_navbar_gesture_bar_summary">Hide the gesture bar at the bottom of the screen</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">ブラックテーマを使用</string>
+    <string name="system_black_theme_summary">強制的に黒い背景のテーマを使用する</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Smart 5G</string>
+    <string name="smart_5g_summary">5Gと4Gを自動的に切り替え、バッテリー消費を削減します。</string>
+</resources>
