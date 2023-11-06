@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2020-2023 PixelOS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
+    <string name="category_name_refresh_rate_controls">রিফ্রেশ রেট</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">রেডিও তথ্য</string>
+    <!-- General -->
+    <string name="copied_to_clipboard">ক্লিপবোর্ডে কপি করা হয়েছে</string>
+    <string name="longpress_to_clipboard">কপি করতে চেপে ধরে রাখুন</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">স্ক্রিনশট নিতে সোয়াইপ করুন</string>
+    <string name="three_finger_gesture_summary">স্ক্রীনশট নিতে ৩ আঙ্গুল দিয়ে নিচের দিকে টানুন</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
+    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">প্লেব্যাক নিয়ন্ত্রণ</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">দ্রুত টর্চ জালুন</string>
+    <string name="power_button_torch_summary">যখন স্ক্রিনটি বন্ধ থাকবে, পাওয়ার বোতামটি দীর্ঘ-টিপলে টর্চকে সক্ষম করবে</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">নোটিফিকেশন সাউন্ডগুলির মধ্যে ন্যূনতম সময়</string>
+    <string name="app_notification_sound_timeout_summary_template">সাউন্ড বা ভাইব্রেশন প্রত্যেক <xliff:g id="duration">%1$s</xliff:g>- এ একবারের বেশি হতে অনুমতি দেবেন না</string>
+    <string name="app_notification_sound_timeout_value_none">কোনো বাধা নেই</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">১০ সেকেন্ড</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">৩০ সেকেন্ড</string>
+    <string name="app_notification_sound_timeout_value_1_minute">১ মিনিট</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">৫ মিনিট</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">১০ মিনিট</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">৩০ মিনিট</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_summary">স্ট্যাটাস বার এর আইকন এর দৃশ্যমান অবস্থা নিয়ন্ত্রণ করুন</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Advanced restart চালু করুন</string>
+    <string name="global_actions_advanced_reboot_summary">পাওয়ার মেনুতে পুনরুদ্ধার এবং বুটলোডারের বিকল্পগুলি দেখান</string>
+    <!-- Navbar options -->
+    <string name="navbar_category">Navigation bar</string>
+    <string name="navbar_invert_layout_title">নেভিগেশন বার লেআউট উল্টানো</string>
+    <string name="navbar_invert_info">নেভিগেশন বারে \"ব্যাক\" এবং \"রিসেন্ট\" বোতামগুলি অদলবদল করুন৷</string>
+    <string name="hide_navbar_gesture_bar_title">Hide gesture bar</string>
+    <string name="hide_navbar_gesture_bar_summary">Hide the gesture bar at the bottom of the screen</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">কালো থিম ব্যবহার করুন</string>
+    <string name="system_black_theme_summary">জোরপূর্বক ব্যাকগ্রাউন্ড রং কালো করুন</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">স্মার্ট 5G</string>
+    <string name="smart_5g_summary">ব্যাটারি ব্যবহার কমাতে স্বয়ংক্রিয়ভাবে 5G এবং 4G-এর মধ্যে পাল্টান</string>
+</resources>
