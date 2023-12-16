@@ -51,4 +51,7 @@
 
     <!-- Whether to show min refresh rate in display settings -->
     <bool name="config_show_min_refresh_rate_switch">false</bool>
+
+    <!-- Whether to show double tap to doze  -->
+    <bool name="config_supportsLegacyDoubleTapToDoze">true</bool>
 </resources>

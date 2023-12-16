@@ -27,12 +27,19 @@ import com.android.settings.SettingsPreferenceFragment;
 public class DoubleTapAmbientSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
+    private boolean sLegacyDoubleTapToDozeSupported;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.double_tap_ambient_screen_settings);
 
-        getActivity().getActionBar().setTitle(R.string.double_tap_title);
+        sLegacyDoubleTapToDozeSupported =
+              getResources().getBoolean(R.bool.config_supportsLegacyDoubleTapToDoze);
+
+        if (sLegacyDoubleTapToDozeSupported) {
+            addPreferencesFromResource(R.xml.double_tap_ambient_screen_settings);
+            getActivity().getActionBar().setTitle(R.string.double_tap_title);
+        }
     }
 
     @Override
