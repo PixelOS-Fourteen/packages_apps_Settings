@@ -61,4 +61,165 @@
     <!-- Smart 5G -->
     <string name="smart_5g_title">5G Intelligente</string>
     <string name="smart_5g_summary">Basculer automatiquement entre 5G et 4G pour réduire la consommation de la batterie</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Afficher en mode veille</string>
+    <string name="doze_gesture_ambient_summary">Utiliser l\'affichage en mode Veille au lieu de réveiller l\'écran</string>
+    <string name="gesture_wake_ambient">Afficher en mode veille</string>
+    <string name="gesture_wake">Réveiller complètement</string>
+    <!-- Max refresh rate -->
+    <string name="max_refresh_rate_title">Taux de rafraîchissement maxi</string>
+    <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">Taux de rafraîchissement minimum</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Attention: Cette option peut ne pas fonctionner correctement ou entraîner une perte de données et n\'est donc pas recommandée!</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Localisez le lecteur d\'empreintes digitales à l\'avant de votre tablette.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Localisez le lecteur d\'empreintes digitales à l\'avant de votre appareil.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Localisez le lecteur d\'empreintes digitales à l\'avant de votre téléphone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Localisez le lecteur d\'empreintes digitales à l\'arrière de votre tablette.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Localisez le lecteur d\'empreintes digitales à l\'arrière de votre appareil.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Localisez le lecteur d\'empreintes digitales à l\'arrière de votre téléphone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Localisez le lecteur d\'empreintes digitales sur le côté de votre tablette.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Localisez le lecteur d\'empreintes digitales sur le côté de votre appareil.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Localisez le lecteur d\'empreintes digitales sur le coté de votre téléphone.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Touchez le capteur à l\'avant de votre tablette.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Touchez le capteur à l\'avant de votre appareil.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Touchez le capteur à l\'avant de votre téléphone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Touchez le capteur à l\'arrière de votre tablette.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Touchez le capteur à l\'arrière de votre appareil.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Touchez le capteur à l\'arrière de votre téléphone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Touchez le capteur sur le côté de votre tablette.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Touchez le capteur sur le côté de votre appareil.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Touchez le capteur sur le côté de votre téléphone.</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Applications en plein écran</string>
+    <string name="display_cutout_force_fullscreen_summary">Forcer les applications à ignorer l\'encoche</string>
+    <string name="search">Rechercher</string>
+    <string name="search_apps">Rechercher des applications</string>
+    <string name="application_icon">Icône d\'application</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Empreinte digitale écran éteint</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Permet de déverrouiller avec l\'écran éteint.\nL\'activation peut provoquer des réveils accidentels.</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Paramètres de rotation</string>
+    <string name="display_rotation_enabled">Rotation automatique activée</string>
+    <string name="display_rotation_disabled">Rotation automatique désactivée</string>
+    <string name="display_rotation_unit">degrés</string>
+    <string name="display_rotation_category_title">Modes de rotation</string>
+    <string name="display_rotation_0_title">0 degrés</string>
+    <string name="display_rotation_90_title">90 degrés</string>
+    <string name="display_rotation_180_title">180 degrés</string>
+    <string name="display_rotation_270_title">270 degrés</string>
+    <!-- Double tap to sleep on status bar or lockscreen -->
+    <string name="status_bar_double_tap_to_sleep_title">Appuyer pour mettre en veille</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Appuyer deux fois sur la barre d\'état ou sur l\'écran de verrouillage pour éteindre l\'écran</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignorer les fenêtres d\'indication de sécurité</string>
+    <string name="ignore_window_secure_summary">Cela supprime les captures d\'écran et les limites des enregistrements d\'écran pour toutes les applications. Normalement, les applications spéciales sont remplacées par des zones noires dans les enregistrements. Cela peut être pratique dans certains cas, mais peut entraîner des fuites de confidentialité. Après la modification, vous devrez redémarrer les applications pour que le changement prenne effet.</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Moins d\'une minute</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s aujourd\'hui</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Options de vibration appel entrant</string>
+    <string name="incall_vibrate_connect_title">Vibrer lorsque la connexion est établie</string>
+    <string name="incall_vibrate_call_wait_title">Vibrer lors d\'un appel en attente</string>
+    <string name="incall_vibrate_disconnect_title">Vibrer lors de la fin de l\'appel</string>
+    <!-- Battery saver refresh rate -->
+    <string name="battery_saver_refresh_rate_title">Réduire le taux de rafraîchissement</string>
+    <string name="battery_saver_refresh_rate_summary">Utilisez un taux de rafraîchissement d\'écran de 60 Hz pour économiser de l\'énergie lorsque l\'économiseur de batterie est activé</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Contrôle de charge</string>
+    <string name="charging_control_summary">Personnaliser le planning de charge et les limites de la batterie</string>
+    <string name="charging_control_enable_title">Activer le contrôle de charge</string>
+    <string name="charging_control_mode_title">Mode de charge</string>
+    <string name="charging_control_mode_auto_title">Planification automatique</string>
+    <string name="charging_control_mode_auto_summary">Déterminer automatiquement quand démarrer le chargement en fonction des alarmes définies</string>
+    <string name="charging_control_mode_custom_title">Planification personnalisée</string>
+    <string name="charging_control_mode_custom_summary">Définir l\'heure de fin de charge complète</string>
+    <string name="charging_control_mode_limit_title">Limiter la charge</string>
+    <string name="charging_control_mode_limit_summary">Limiter la charge à un certain pourcentage</string>
+    <string name="charging_control_start_time_title">Heure de début</string>
+    <string name="charging_control_start_time_summary">Le contrôle de charge s\'active lorsque vous commencez à charger après %s</string>
+    <string name="charging_control_target_time_title">Heure cible de charge complète</string>
+    <string name="charging_control_target_time_summary">La batterie sera complètement chargée dans %s</string>
+    <string name="charging_control_limit_title">Limite</string>
+    <string name="reset">Remise à zéro</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Luminosité automatique rapide</string>
+    <string name="auto_brightness_one_shot_summary">La luminosité ne s\'ajustera qu\'au moment où l\'écran s\'allume</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Sensibilité tactile élevée</string>
+    <string name="high_touch_sensitivity_summary">Augmenter la sensibilité de l\'écran tactile pour qu\'il puisse être utilisé avec des gants</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Survol de l\'écran tactile</string>
+    <string name="touchscreen_hovering_summary">Permet de survoler l\'écran comme avec une souris dans les navigateurs web, les bureaux à distance, etc</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">Taux de rafraîchissement élevé</string>
+    <string name="high_touch_polling_rate_summary">Augmenter le taux de rafraîchissement de l\'écran</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Optimise votre écran en fonction de l\'heure et des conditions lumineuse pour améliorer la lisibilité et réduire la fatigue oculaire</string>
+    <string name="live_display_mode">Mode d\'affichage</string>
+    <string name="live_display_color_temperature_title">Température des couleurs</string>
+    <string name="live_display_color_temperature_summary">Jour : <xliff:g id="day_temperature">%1$d</xliff:g>K Nuit : <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">Jour</string>
+    <string name="live_display_night">Nuit</string>
+    <string name="live_display_outdoor_mode_title">Mode extérieur automatique</string>
+    <string name="live_display_outdoor_mode_summary">Augmenter la luminosité et la saturation automatiquement sous la lumière du soleil</string>
+    <string name="live_display_anti_flicker_title">Anti-scintillement</string>
+    <string name="live_display_anti_flicker_summary">Empêche le scintillement et réduit la fatigue oculaire dans des conditions de faible éclairage. Il est possible que la précision des couleurs soit altérée et que l\'affichage de certains éléments soit modifié.</string>
+    <string name="live_display_low_power_title">Réduire la consommation d\'énergie</string>
+    <string name="live_display_low_power_summary">Ajuster l\'affichage pour une consommation d\'énergie la plus faible sans dégrader l\'aspect visuel</string>
+    <string name="live_display_enhance_color_title">Amélioration des couleurs</string>
+    <string name="live_display_enhance_color_summary">Améliorer l\'éclat des couleurs des visages, paysages et autres images</string>
+    <string name="live_display_color_profile_title">Profil colorimétrique</string>
+    <string name="live_display_color_profile_standard_title">Standard</string>
+    <string name="live_display_color_profile_standard_summary">Couleurs améliorées et blancs lumineux</string>
+    <string name="live_display_color_profile_natural_title">Naturel</string>
+    <string name="live_display_color_profile_natural_summary">Couleurs et teints de peau réalistes</string>
+    <string name="live_display_color_profile_dynamic_title">Dynamique</string>
+    <string name="live_display_color_profile_dynamic_summary">Couleurs améliorées et blancs lumineux</string>
+    <string name="live_display_color_profile_cinema_title">Cinéma</string>
+    <string name="live_display_color_profile_cinema_summary">Reproduction parfaite des couleurs pour la vidéo</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomie</string>
+    <string name="live_display_color_profile_astronomy_summary">Rouge profond pour préserver la vision nocturne</string>
+    <string name="live_display_color_profile_photography_title">Photographie</string>
+    <string name="live_display_color_profile_photography_summary">Reproduction parfaite des couleurs pour les photos</string>
+    <string name="live_display_color_profile_basic_title">Basique</string>
+    <string name="live_display_color_profile_basic_summary">Utiliser l\'affichage non calibré</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptatif</string>
+    <string name="live_display_color_profile_adaptive_summary">Les couleurs s\'adaptent aux conditions ambiantes</string>
+    <string name="live_display_color_profile_reading_title">Lecture</string>
+    <string name="live_display_color_profile_reading_summary">Couleurs plus chaudes pour diminuer la fatigue oculaire</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Couleurs fidèles à l’espace colorimétrique sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Couleurs fidèles à l’espace colorimétrique DCI-P3</string>
+    <string name="live_display_reading_mode_title">Mode Lecture</string>
+    <string name="live_display_reading_mode_summary">Mode niveaux de gris pour la lecture prolongée</string>
+    <string name="color_calibration_title">Calibrage des couleurs</string>
+    <string name="color_calibration_summary">Calibrer les couleurs de l\'écran</string>
+    <string name="color_red_title">Rouge</string>
+    <string name="color_green_title">Vert</string>
+    <string name="color_blue_title">Bleu</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Ajustement de l\'image</string>
+    <string name="picture_adjustment_summary">Ajustement de la teinte, la saturation, l\'intensité et le contraste</string>
+    <string name="adj_hue_title">Teinte</string>
+    <string name="adj_saturation_title">Saturation</string>
+    <string name="adj_intensity_title">Intensité</string>
+    <string name="adj_contrast_title">Contraste</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Appui double</string>
+    <string name="doze_double_tap_title">Appuyez deux fois pour vérifier le téléphone</string>
+    <string name="doze_double_tap_summary">Notification par impulsion lumineuse lors d\'un appui double</string>
+    <!-- QSTile requires unlocking before being accessible -->
+    <string name="qstile_requires_unlocking_title">Secure QS tiles</string>
+    <string name="qstile_requires_unlocking_summary">Require unlocking to use sensitive QS tiles</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Hide on lock screen</string>
+    <string name="power_menu_hide_on_secure_summary">Hide the power menu while on a secure lock screen</string>
 </resources>

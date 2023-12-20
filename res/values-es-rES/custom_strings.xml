@@ -25,11 +25,11 @@
     <string name="three_finger_gesture">Desliza para capturar la pantalla</string>
     <string name="three_finger_gesture_summary">Desliza hacia abajo con tres dedos para tomar una captura de pantalla</string>
     <!-- Cycle through ringer modes gesture -->
-    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
-    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+    <string name="prevent_ringing_option_cycle">Pasar por los modos</string>
+    <string name="prevent_ringing_option_cycle_summary">Activado (alternar entre modos)</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Control de reproducción</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_summary">Cuando la pantalla está apagada, mantener presionadas las teclas de volumen cambiará la canción</string>
     <!-- Torch Power button gestures -->
     <string name="power_button_torch_title">Linterna</string>
     <string name="power_button_torch_summary">Cuando la pantalla esté apagada, mantener presionado el botón de encendido activará la linterna</string>
@@ -44,21 +44,182 @@
     <string name="app_notification_sound_timeout_value_15_minutes">10 minutos</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 minutos</string>
     <!-- Status bar Icon Manager -->
-    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_title">Gestor de iconos</string>
     <string name="icon_manager_summary">Control de visibilidad de los iconos de la barra de estado</string>
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">Activar reinicio avanzado</string>
     <string name="global_actions_advanced_reboot_summary">Mostrar opciones para modo de recuperación y gestor de arranque en el menú de apagado</string>
     <!-- Navbar options -->
-    <string name="navbar_category">Navigation bar</string>
+    <string name="navbar_category">Barra de navegación</string>
     <string name="navbar_invert_layout_title">Invertir el orden de los botones de navegación</string>
     <string name="navbar_invert_info">Intercambiar los botones \"Atrás\" y \"Recientes\" de la barra de navegación</string>
-    <string name="hide_navbar_gesture_bar_title">Hide gesture bar</string>
-    <string name="hide_navbar_gesture_bar_summary">Hide the gesture bar at the bottom of the screen</string>
+    <string name="hide_navbar_gesture_bar_title">Ocultar barra de gestos</string>
+    <string name="hide_navbar_gesture_bar_summary">Ocultar la barra de gestos en la parte inferior de la pantalla</string>
     <!-- Black theme -->
     <string name="system_black_theme_title">Utilizar el tema negro</string>
     <string name="system_black_theme_summary">Forzar colores de fondo negros</string>
     <!-- Smart 5G -->
     <string name="smart_5g_title">5G inteligente</string>
     <string name="smart_5g_summary">Cambia automáticamente entre 5G y 4G para reducir el consumo de batería</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Mostrar ambiente</string>
+    <string name="doze_gesture_ambient_summary">Mostrar pantalla ambiente en lugar de despertar completamente la pantalla</string>
+    <string name="gesture_wake_ambient">Mostrar ambiente</string>
+    <string name="gesture_wake">Despertar por completo</string>
+    <!-- Max refresh rate -->
+    <string name="max_refresh_rate_title">Frecuencia de refresco máxima</string>
+    <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">Frecuencia de refresco mínima</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Precaución: ¡Esta opción podría no funcionar correctamente o podría causar perdida de datos, por lo tanto, no es recomendable!</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Localiza el sensor de huella dactilar en el frontal de tu tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Localiza el sensor de huella dactilar en el frontal de tu dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Localiza el sensor de huella dactilar en el frontal de tu teléfono.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Localiza el sensor de huella dactilar en la parte trasera de tu tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Localiza el sensor de huella dactilar en la parte trasera de tu dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Localiza el sensor de huella dactilar en la parte trasera de tu teléfono.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Localiza el sensor de huellas dactilares en la parte lateral de tu tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Localiza el lector de huellas en el lateral del dispositivo.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Localiza el sensor de huella digital en el lado de tu teléfono.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Toca el sensor en la parte frontal de tu tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Toca el sensor en la parte frontal de tu dispositivo.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Toca el sensor en la parte frontal de tu teléfono.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Toca el sensor en la parte trasera de tu tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Toca el sensor en la parte trasera de tu dispositivo.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Toca el sensor en la parte trasera de tu teléfono.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Toca el sensor en el lateral de tu tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Toca el sensor en el lateral de tu dispositivo.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Toca el sensor en el lateral de tu teléfono.</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplicaciones a pantalla completa</string>
+    <string name="display_cutout_force_fullscreen_summary">Forzar aplicaciones a ignorar el espacio del notch</string>
+    <string name="search">Buscar</string>
+    <string name="search_apps">Buscar aplicaciones</string>
+    <string name="application_icon">Icono de aplicación</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Huella en AOD</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Permite desbloquear con la pantalla apagada.\nActivarlo puede causar encendidos accidentales.</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Ajustes de rotación</string>
+    <string name="display_rotation_enabled">Rotación automática activada</string>
+    <string name="display_rotation_disabled">Rotación automática desactivada</string>
+    <string name="display_rotation_unit">grados</string>
+    <string name="display_rotation_category_title">Modos de rotación</string>
+    <string name="display_rotation_0_title">0 grados</string>
+    <string name="display_rotation_90_title">90 grados</string>
+    <string name="display_rotation_180_title">180 grados</string>
+    <string name="display_rotation_270_title">270 grados</string>
+    <!-- Double tap to sleep on status bar or lockscreen -->
+    <string name="status_bar_double_tap_to_sleep_title">Doble toque para suspender</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Doble toque en la barra de estado o pantalla de bloqueo para apagar la pantalla</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignorar la restricción de captura de pantalla</string>
+    <string name="ignore_window_secure_summary">Esto elimina la limitación de captura y grabación de pantalla en todas las aplicaciones. Normalmente, determinadas aplicaciones son reemplazadas por áreas negras en las capturas. Esto puede ser útil en algunos casos, pero puede conducir a filtraciones de datos. Tras cambiar esta opción, quizás necesites reiniciar las aplicaciones para que el cambio tenga efecto.</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Menos de 1 minuto</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s hoy</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opciones de vibración durante las llamadas</string>
+    <string name="incall_vibrate_connect_title">Vibrar al contestar</string>
+    <string name="incall_vibrate_call_wait_title">Vibrar en llamada en espera</string>
+    <string name="incall_vibrate_disconnect_title">Vibrar al colgar</string>
+    <!-- Battery saver refresh rate -->
+    <string name="battery_saver_refresh_rate_title">Reducir la tasa de refresco</string>
+    <string name="battery_saver_refresh_rate_summary">Usar una tasa de refresco de 60 Hz para reducir el consumo de energía cuando el Ahorro de batería esté activado</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Control de carga</string>
+    <string name="charging_control_summary">Personaliza el horario de carga y los límites para la batería</string>
+    <string name="charging_control_enable_title">Habilitar el control de carga</string>
+    <string name="charging_control_mode_title">Modo de carga</string>
+    <string name="charging_control_mode_auto_title">Programación automática</string>
+    <string name="charging_control_mode_auto_summary">Determinar automáticamente cuándo comenzar a cargar según las alarmas configuradas</string>
+    <string name="charging_control_mode_custom_title">Programación personalizada</string>
+    <string name="charging_control_mode_custom_summary">Establece un tiempo límite para la carga completa</string>
+    <string name="charging_control_mode_limit_title">Limitar la carga</string>
+    <string name="charging_control_mode_limit_summary">Limitar la carga a un porcentaje específico</string>
+    <string name="charging_control_start_time_title">Tiempo de inicio</string>
+    <string name="charging_control_start_time_summary">El control de carga se activa cuando comienzas a cargar después del %s</string>
+    <string name="charging_control_target_time_title">Tiempo límite para la carga completa</string>
+    <string name="charging_control_target_time_summary">La batería estará completamente cargada para las %s</string>
+    <string name="charging_control_limit_title">Límite</string>
+    <string name="reset">Restablecer</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Brillo automático en un toque</string>
+    <string name="auto_brightness_one_shot_summary">El ajuste de brillo solo se producirá en el momento en que la pantalla se encienda</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Alta sensibilidad táctil</string>
+    <string name="high_touch_sensitivity_summary">Aumentar la sensibilidad táctil para usar el dispositivo con guantes</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Pantalla táctil deslizante</string>
+    <string name="touchscreen_hovering_summary">Te permitirá deslizar por la pantalla como un ratón en navegadores, escritorios remotos, etc</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">Tasa alta de muestreo táctil</string>
+    <string name="high_touch_polling_rate_summary">Aumentar la tasa de muestreo táctil</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Optimiza tu pantalla basándose en la hora del día y las condiciones ambientales para mejorar la lectura y reducir la fatiga visual</string>
+    <string name="live_display_mode">Modo de pantalla</string>
+    <string name="live_display_color_temperature_title">Temperatura de color</string>
+    <string name="live_display_color_temperature_summary">Día: <xliff:g id="day_temperature">%1$d</xliff:g>K Noche: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">Día</string>
+    <string name="live_display_night">Noche</string>
+    <string name="live_display_outdoor_mode_title">Modo exterior automático</string>
+    <string name="live_display_outdoor_mode_summary">Aumentar automáticamente el brillo y la saturación bajo la luz del sol</string>
+    <string name="live_display_anti_flicker_title">Anti parpadeo</string>
+    <string name="live_display_anti_flicker_summary">Evita el parpadeo y reduce la tensión de los ojos en condiciones de poca luz. Esto puede degradar la precisión del color y afectar la manera en la que se muestran algunos elementos.</string>
+    <string name="live_display_low_power_title">Reducir el consumo de energía</string>
+    <string name="live_display_low_power_summary">Ajustar la pantalla al mínimo consumo de energía sin degradación</string>
+    <string name="live_display_enhance_color_title">Mejorar colores</string>
+    <string name="live_display_enhance_color_summary">Mejora la intensidad del color en tonos de piel, paisajes y otras imágenes</string>
+    <string name="live_display_color_profile_title">Perfil de color</string>
+    <string name="live_display_color_profile_standard_title">Estándar</string>
+    <string name="live_display_color_profile_standard_summary">Colores precisos y blancos brillantes</string>
+    <string name="live_display_color_profile_natural_title">Natural</string>
+    <string name="live_display_color_profile_natural_summary">Colores realistas y tonos cálidos</string>
+    <string name="live_display_color_profile_dynamic_title">Dinámico</string>
+    <string name="live_display_color_profile_dynamic_summary">Colores mejorados y blancos brillantes</string>
+    <string name="live_display_color_profile_cinema_title">Cine</string>
+    <string name="live_display_color_profile_cinema_summary">Reproducción perfecta de color para video</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomía</string>
+    <string name="live_display_color_profile_astronomy_summary">Rojo oscuro para preservar la visión nocturna</string>
+    <string name="live_display_color_profile_photography_title">Fotografía</string>
+    <string name="live_display_color_profile_photography_summary">Reproducción de color perfecta para fotos</string>
+    <string name="live_display_color_profile_basic_title">Básico</string>
+    <string name="live_display_color_profile_basic_summary">Usa la pantalla sin calibrar</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptativo</string>
+    <string name="live_display_color_profile_adaptive_summary">Los colores se adaptan a las condiciones ambientales</string>
+    <string name="live_display_color_profile_reading_title">Lectura</string>
+    <string name="live_display_color_profile_reading_summary">Colores cálidos para reducir la fatiga visual</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Colores precisos para el espacio de color sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Colores fieles al espacio de color DCI-P3</string>
+    <string name="live_display_reading_mode_title">Modo lectura</string>
+    <string name="live_display_reading_mode_summary">Modo escala de grises para lectura prolongada</string>
+    <string name="color_calibration_title">Calibración de color</string>
+    <string name="color_calibration_summary">Calibrar los colores de la pantalla</string>
+    <string name="color_red_title">Rojo</string>
+    <string name="color_green_title">Verde</string>
+    <string name="color_blue_title">Azul</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Ajuste de imagen</string>
+    <string name="picture_adjustment_summary">Ajustar tono, saturación, intensidad y contraste</string>
+    <string name="adj_hue_title">Tono</string>
+    <string name="adj_saturation_title">Saturación</string>
+    <string name="adj_intensity_title">Intensidad</string>
+    <string name="adj_contrast_title">Contraste</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Doble toque</string>
+    <string name="doze_double_tap_title">Doble toque para comprobar el teléfono</string>
+    <string name="doze_double_tap_summary">Despertar pantalla con un doble toque para comprobar las notificaciones</string>
+    <!-- QSTile requires unlocking before being accessible -->
+    <string name="qstile_requires_unlocking_title">Secure QS tiles</string>
+    <string name="qstile_requires_unlocking_summary">Require unlocking to use sensitive QS tiles</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Hide on lock screen</string>
+    <string name="power_menu_hide_on_secure_summary">Hide the power menu while on a secure lock screen</string>
 </resources>

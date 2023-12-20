@@ -25,11 +25,11 @@
     <string name="three_finger_gesture">Potiahnutím urobiť snímku obrazovky</string>
     <string name="three_finger_gesture_summary">Potiahnutím nadol troma prstami urobiť snímku obrazovky</string>
     <!-- Cycle through ringer modes gesture -->
-    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
-    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+    <string name="prevent_ringing_option_cycle">Prepínánie medzi režimami</string>
+    <string name="prevent_ringing_option_cycle_summary">Zap. (Prepínanie medzi režimami)</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Ovládanie prehrávania</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_summary">Keď je obrazovka vypnutá, dlhým stlačením tlačidiel na ovládanie hlasitosti môžete prepínať skladby</string>
     <!-- Torch Power button gestures -->
     <string name="power_button_torch_title">Rýchla baterka</string>
     <string name="power_button_torch_summary">Keď je obrazovka vypnutá, dlhým stlačením tlačidla napájania aktivujete baterku</string>
@@ -44,21 +44,182 @@
     <string name="app_notification_sound_timeout_value_15_minutes">10 minút</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 minút</string>
     <!-- Status bar Icon Manager -->
-    <string name="icon_manager_title">Icon manager</string>
+    <string name="icon_manager_title">Správca ikon</string>
     <string name="icon_manager_summary">Ovládať viditeľnosť ikon stavového riadku</string>
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">Povoliť rozšírený reštart</string>
     <string name="global_actions_advanced_reboot_summary">V ponuke napájania zobrazte možnosti režimu recovery a bootloadera</string>
     <!-- Navbar options -->
-    <string name="navbar_category">Navigation bar</string>
+    <string name="navbar_category">Navigačný panel</string>
     <string name="navbar_invert_layout_title">Prevrátiť rozloženie navigačného panela</string>
     <string name="navbar_invert_info">Prehodiť tlačidlá \"Späť\" a \"Nedávne\" na navigačnom paneli</string>
-    <string name="hide_navbar_gesture_bar_title">Hide gesture bar</string>
-    <string name="hide_navbar_gesture_bar_summary">Hide the gesture bar at the bottom of the screen</string>
+    <string name="hide_navbar_gesture_bar_title">Skryť panel gestá</string>
+    <string name="hide_navbar_gesture_bar_summary">Zobraziť panel gestá v dolnej časti obrazovky</string>
     <!-- Black theme -->
     <string name="system_black_theme_title">Použiť čiernu tému</string>
     <string name="system_black_theme_summary">Vynútiť čiernu farbu pozadia</string>
     <!-- Smart 5G -->
     <string name="smart_5g_title">Inteligentné 5G</string>
     <string name="smart_5g_summary">Automaticky prepínať medzi 5G a 4G na zníženie spotreby batérie</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Zobraziť Ambientný displej</string>
+    <string name="doze_gesture_ambient_summary">Zobraziť ambientný diplej namiesto úplného prebudenia obrazovky</string>
+    <string name="gesture_wake_ambient">Zobraziť Ambientný displej</string>
+    <string name="gesture_wake">Úplne prebudený</string>
+    <!-- Max refresh rate -->
+    <string name="max_refresh_rate_title">Maximálna obnovovacia frekvencia</string>
+    <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">Minimálna obnovovacia frekvencia</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Varovanie: Táto možnosť nemusí fungovať správne alebo môže viesť k strate dát, preto se neodporúča!</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Nájdite snímač odtlačkov prstov na prednej strane tabletu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Vyhľadajte senzor odtlačkov prsta na prednej strane vášho zariadenia.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Vyhľadajte senzor odtlačkov prsta na prednej strane vášho telefónu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Vyhľadajte senzor odtlačkov prsta na zadnej strane vášho tabletu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Vyhľadajte senzor odtlačkov prsta na zadnej strane vášho zariadenia.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Vyhľadajte senzor odtlačkov prsta na zadnej strane vášho telefónu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Vyhľadajte snímač odtlačkov prstov na zadnej strane tabletu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Vyhľadajte snímač odtlačkov prstov na bočnej strane zariadenia.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Vyhľadajte snímač odtlačkov prstov na bočnej strane telefónu.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Dotknite sa senzora na prednej strane tabletu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Dotknite sa senzora na prednej strane zariadenia.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Dotknite sa senzora na prednej strane vášho telefónu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Dotknite sa senzora na zadnej strane tabletu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Dotknite sa senzora na zadnej strane zariadenia.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Dotknite sa senzora na zadnej strane telefónu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Dotknite sa senzora na bočnej strane tabletu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Dotknite sa senzora na bočnej strane zariadenia.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Dotknite sa senzora na bočnej strane vášho telefónu.</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplikácie na celú obrazovku</string>
+    <string name="display_cutout_force_fullscreen_summary">Prinútiť aplikácie ignorovať výrez</string>
+    <string name="search">Hľadať</string>
+    <string name="search_apps">Hľadať aplikácie</string>
+    <string name="application_icon">Ikona aplikácie</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Vždy zapnutý odtlačok prsta</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Umožňuje odomknutie s vypnutou obrazovkou.\nPovolenie môže spôsobiť náhodné prebudenie.</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Nastavenia otáčania</string>
+    <string name="display_rotation_enabled">Automatické otáčanie je povolené</string>
+    <string name="display_rotation_disabled">Automatické otáčanie je zakázané</string>
+    <string name="display_rotation_unit">stupne</string>
+    <string name="display_rotation_category_title">Režimy otáčania</string>
+    <string name="display_rotation_0_title">0 stupňov</string>
+    <string name="display_rotation_90_title">90 stupňov</string>
+    <string name="display_rotation_180_title">180 stupňov</string>
+    <string name="display_rotation_270_title">270 stupňov</string>
+    <!-- Double tap to sleep on status bar or lockscreen -->
+    <string name="status_bar_double_tap_to_sleep_title">Klepnutím uspať</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Vypnúť obrazovku dvojklikom na stavový riadok alebo na obrazovku uzamknutia</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignorovať príznaky zabezpečenia okien</string>
+    <string name="ignore_window_secure_summary">Týmto sa odstránia obmedzenia snímok obrazovky a záznamov obrazovky pre všetky aplikácie. Normálne sú špeciálne aplikácie nahradené čiernymi oblasťami v záznamoch. V niektorých prípadoch to môže byť výhodné, ale môže to viesť k úniku súkromia. Po zmene tohto prepínača bude možno potrebné reštartovať aplikácie, aby sa zmena prejavila.</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Menej ako 1 minúta</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">Dnes %1$s</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Možnosti vibrácií pri hovore</string>
+    <string name="incall_vibrate_connect_title">Vibrovať pri pripojení</string>
+    <string name="incall_vibrate_call_wait_title">Vibrovať pri čakajúcom hovore</string>
+    <string name="incall_vibrate_disconnect_title">Vibrovať pri odpojení</string>
+    <!-- Battery saver refresh rate -->
+    <string name="battery_saver_refresh_rate_title">Znížiť obnovovaciu frekvenciu</string>
+    <string name="battery_saver_refresh_rate_summary">Použiť obnovovaciu frekvenciu 60 Hz ak je zapnutý šetrič batérie</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Ovládanie nabíjania</string>
+    <string name="charging_control_summary">Customize charging schedule and limits for battery</string>
+    <string name="charging_control_enable_title">Povoliť ovládanie nabíjania</string>
+    <string name="charging_control_mode_title">Režim nabíjania</string>
+    <string name="charging_control_mode_auto_title">Automatický harmonogram</string>
+    <string name="charging_control_mode_auto_summary">Automaticky zistiť kedy sa má začať nabíjanie na základe nastavených budíkov</string>
+    <string name="charging_control_mode_custom_title">Vlastný plán</string>
+    <string name="charging_control_mode_custom_summary">Nastavenie cieľového času do úplného nabitia</string>
+    <string name="charging_control_mode_limit_title">Limitovať nabíjanie</string>
+    <string name="charging_control_mode_limit_summary">Limitovať nabíjanie do istého percenta batérie</string>
+    <string name="charging_control_start_time_title">Čas začiatku</string>
+    <string name="charging_control_start_time_summary">Ovládanie napájania sa spustí keď začnete nabíjanie po %s</string>
+    <string name="charging_control_target_time_title">Cieľový čas do úplného nabitia</string>
+    <string name="charging_control_target_time_summary">Batéria bude plne nabitá o %s</string>
+    <string name="charging_control_limit_title">Obmedzenie</string>
+    <string name="reset">Obnoviť</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Jednorázový automatický jas</string>
+    <string name="auto_brightness_one_shot_summary">Úprava jasu sa vykoná iba vo chvíli, keď sa zapne obrazovka</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Vysoká citlivosť na dotyk</string>
+    <string name="high_touch_sensitivity_summary">Zvýšiť citlivosť dotykovej obrazovky, takže ju bude možné používať pri nosení rukavíc</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Pohyb nad dotykovou obrazovkou</string>
+    <string name="touchscreen_hovering_summary">Pohybovať sa nad obrazovkou podobne, ako myš vo webovom prehliadači, vzdialenej ploche, atď</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">Vysoká vzorkovacia frekvencia pre dotyk</string>
+    <string name="high_touch_polling_rate_summary">Zvýšenie vzorkovacej frekvencie dotykovej obrazovky</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Optimalizovať vašu obrazovku na základe dennej doby a podmienok okolia na zlepšenie čitateľnosti a zníženia únavy očí</string>
+    <string name="live_display_mode">Režim zobrazenia</string>
+    <string name="live_display_color_temperature_title">Teplota farieb</string>
+    <string name="live_display_color_temperature_summary">Deň: <xliff:g id="day_temperature">%1$d</xliff:g>K  Noc: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">Deň</string>
+    <string name="live_display_night">Noc</string>
+    <string name="live_display_outdoor_mode_title">Automatický režim vonku</string>
+    <string name="live_display_outdoor_mode_summary">Automaticky zvýšiť jas a sýtosť za jasného slnečného svetla</string>
+    <string name="live_display_anti_flicker_title">Eliminácia blikania</string>
+    <string name="live_display_anti_flicker_summary">Zabrániť rozsiahlemu blikaniu a znížiť námahu očí v slabých svetelných podmienkach. Môže degradovať presnosť farieb a ovplyvniť zobrazenie niektorých položiek.</string>
+    <string name="live_display_low_power_title">Znížiť spotrebu energie</string>
+    <string name="live_display_low_power_summary">Nastaviť zobrazenie pre najnižšiu spotrebu energie bez zhoršenia čitateľnosti</string>
+    <string name="live_display_enhance_color_title">Vylepšiť farby</string>
+    <string name="live_display_enhance_color_summary">Zlepšiť živosť farieb pleťových odtieňov, scenérie a ďalších obrázkov</string>
+    <string name="live_display_color_profile_title">Farebný profil</string>
+    <string name="live_display_color_profile_standard_title">Štandardný</string>
+    <string name="live_display_color_profile_standard_summary">Presné farby a jasná biela</string>
+    <string name="live_display_color_profile_natural_title">Prirodzený</string>
+    <string name="live_display_color_profile_natural_summary">Realistické farby a telové tóny</string>
+    <string name="live_display_color_profile_dynamic_title">Dynamický</string>
+    <string name="live_display_color_profile_dynamic_summary">Vylepšené farby a jasná biela</string>
+    <string name="live_display_color_profile_cinema_title">Kino</string>
+    <string name="live_display_color_profile_cinema_summary">Dokonalá farebná reprodukcia pre video</string>
+    <string name="live_display_color_profile_astronomy_title">Astronómia</string>
+    <string name="live_display_color_profile_astronomy_summary">Tmavo červená pre zachovanie nočného videnia</string>
+    <string name="live_display_color_profile_photography_title">Fotografia</string>
+    <string name="live_display_color_profile_photography_summary">Dokonalá farebná reprodukcia pre fotografie</string>
+    <string name="live_display_color_profile_basic_title">Základný</string>
+    <string name="live_display_color_profile_basic_summary">Použiť nekalibrovaný displej</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptívny</string>
+    <string name="live_display_color_profile_adaptive_summary">Prispôsobiť farby okolitým podmienkam</string>
+    <string name="live_display_color_profile_reading_title">Čítanie</string>
+    <string name="live_display_color_profile_reading_summary">Teplejšie farby pre menšie namáhanie očí</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Farby sú identické s farebným priestorom sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Farby sú identické s farebným priestorom DCI-P3</string>
+    <string name="live_display_reading_mode_title">Režim čítania</string>
+    <string name="live_display_reading_mode_summary">Režim odtieňov šedej pre dlhodobé čítanie</string>
+    <string name="color_calibration_title">Kalibrácia farieb</string>
+    <string name="color_calibration_summary">Kalibrovať farby na obrazovke</string>
+    <string name="color_red_title">Červená</string>
+    <string name="color_green_title">Zelená</string>
+    <string name="color_blue_title">Modrá</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Prispôsobenie obrazu</string>
+    <string name="picture_adjustment_summary">Upraviť odtieň, sýtosť, intenzitu a kontrast</string>
+    <string name="adj_hue_title">Odtieň</string>
+    <string name="adj_saturation_title">Saturácia</string>
+    <string name="adj_intensity_title">Intenzita</string>
+    <string name="adj_contrast_title">Kontrast</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Dvojité poklepanie</string>
+    <string name="doze_double_tap_title">Kontrola telefónu dvojitým klepnutím</string>
+    <string name="doze_double_tap_summary">Pulzovať upozornenia dvojitým klepnutím</string>
+    <!-- QSTile requires unlocking before being accessible -->
+    <string name="qstile_requires_unlocking_title">Secure QS tiles</string>
+    <string name="qstile_requires_unlocking_summary">Require unlocking to use sensitive QS tiles</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Hide on lock screen</string>
+    <string name="power_menu_hide_on_secure_summary">Hide the power menu while on a secure lock screen</string>
 </resources>

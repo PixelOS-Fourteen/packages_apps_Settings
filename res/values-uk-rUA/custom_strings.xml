@@ -61,4 +61,165 @@
     <!-- Smart 5G -->
     <string name="smart_5g_title">Розумний 5G</string>
     <string name="smart_5g_summary">Автоматично переключати між 5G та 4G, щоб зменшити споживання заряду акумулятора</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Показати Ambient Display</string>
+    <string name="doze_gesture_ambient_summary">Показувати на Ambient Display замість повного пробудження екрану вгору</string>
+    <string name="gesture_wake_ambient">Показати Ambient Display</string>
+    <string name="gesture_wake">Повністю пробуджувати</string>
+    <!-- Max refresh rate -->
+    <string name="max_refresh_rate_title">Максимальна частота оновлення</string>
+    <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">Найменша частота оновлення</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Увага: Ця опція може працювати некоректно або призвести до втрати даних, тому не рекомендована!</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Знайдіть сканер відбитків пальців на передній панелі вашого планшета.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Знайдіть сканер пальців на передній панелі вашого пристрою.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Знайдіть сканер відбитків пальців на передній панелі вашого смартфона.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Знайдіть сканер відбитків пальців на задній панелі вашого планшета.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Знайдіть сканер відбитків пальців на задній панелі вашого пристрою.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Знайдіть сканер відбитків пальців на задній панелі вашого смартфону.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Знайдіть сканер відбитків пальців збоку планшета.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Знайдіть сканер відбитків пальців збоку пристрою.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Знайдіть сканер відбитків пальців збоку телефона.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Торкніться сканера на передній панелі вашого планшета.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Торкніться сканера на передній панелі вашого пристрою.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Знайдіть сканер відбитків пальців на передній панелі вашого смартфона.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Торкніться сканера на задній панелі вашого планшета.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Торкніться сканера на задній панелі вашого пристрою.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Торкніться сканера на задній панелі вашого смартфона.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Торкніться сканера на бічній грані вашого планшета.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Торкніться сканера на бічній грані вашого пристрою.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Торкніться сканера на бічній грані вашого смартфона.</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Повноекранні застосунки</string>
+    <string name="display_cutout_force_fullscreen_summary">Змусити застосунки ігнорувати виріз</string>
+    <string name="search">Пошук</string>
+    <string name="search_apps">Пошук застосунків</string>
+    <string name="application_icon">Іконка застосунку</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Завжди увімкнений відбиток пальця</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Дозволяє розблокування екрану вимкнений.\nУвімкнення може викликати випадкові пробудження.</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Параметри автоповороту</string>
+    <string name="display_rotation_enabled">Автоповорот увімкнено</string>
+    <string name="display_rotation_disabled">Автоповорот вимкнуто</string>
+    <string name="display_rotation_unit">градусів</string>
+    <string name="display_rotation_category_title">Режими повороту</string>
+    <string name="display_rotation_0_title">0 градусів</string>
+    <string name="display_rotation_90_title">90 градусів</string>
+    <string name="display_rotation_180_title">180 градусів</string>
+    <string name="display_rotation_270_title">270 градусів</string>
+    <!-- Double tap to sleep on status bar or lockscreen -->
+    <string name="status_bar_double_tap_to_sleep_title">Торкніться для сну</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Подвійне натискання на рядок стану чи екран блокування, щоб вимкнути екран</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ігнорувати позначки безпеки вікон додатків</string>
+    <string name="ignore_window_secure_summary">Це видаляє ліміти даних з екрану та записи екрану для всіх програм. Зазвичай такі програми замінюються чорними областями в записах. Це може бути зручним в деяких випадках, але може призвести до витоку конфіденційності. Після зміни цього перемикача, вам, можливо, доведеться перезапустити додатки, щоб зміни набрали сили.</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Менше хвилини</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s сьогодні</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Налаштування вібрації під час дзвінка</string>
+    <string name="incall_vibrate_connect_title">Вібрація при з\'єднанні</string>
+    <string name="incall_vibrate_call_wait_title">Вібрувати під час очікування дзвінка</string>
+    <string name="incall_vibrate_disconnect_title">Вібрація при роз\'єднанні</string>
+    <!-- Battery saver refresh rate -->
+    <string name="battery_saver_refresh_rate_title">Зменшити частоту оновлення</string>
+    <string name="battery_saver_refresh_rate_summary">Використовувати частоту оновлення екрану 60 Гц для економії заряду, коли ввімкнено режим енергозбереження</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Контроль заряджання</string>
+    <string name="charging_control_summary">Налаштуйте розклад заряджання та обмеження для вашого пристрою</string>
+    <string name="charging_control_enable_title">Увімкнути керування заряджанням</string>
+    <string name="charging_control_mode_title">Режим заряджання</string>
+    <string name="charging_control_mode_auto_title">Автоматичний графік</string>
+    <string name="charging_control_mode_auto_summary">Автоматично визначати коли починати заряджання на основі встановлених будильників</string>
+    <string name="charging_control_mode_custom_title">Розклад користувача</string>
+    <string name="charging_control_mode_custom_summary">Встановити час до повного заряджання</string>
+    <string name="charging_control_mode_limit_title">Обмежити заряджання</string>
+    <string name="charging_control_mode_limit_summary">Обмежити заряд до певного відсотка</string>
+    <string name="charging_control_start_time_title">Час початку</string>
+    <string name="charging_control_start_time_summary">Керування заряджанням активується через %s після початку заряджання</string>
+    <string name="charging_control_target_time_title">Час до повного заряджання</string>
+    <string name="charging_control_target_time_summary">Батарея буде повністю заряджена за %s</string>
+    <string name="charging_control_limit_title">Ліміт</string>
+    <string name="reset">Скинути</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Однократна автоматична яскравість</string>
+    <string name="auto_brightness_one_shot_summary">Регулювання яскравості відбудеться лише в той момент, коли екран увімкнений</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Висока чутливість дотику</string>
+    <string name="high_touch_sensitivity_summary">Підвищити чутливість екрану для можливості роботи в рукавичках</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Зависання над сенсорним екраном</string>
+    <string name="touchscreen_hovering_summary">Дозволяє виділяти елементи інтерфейсу при зависанні над ними без дотику</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">Висока швидкість опитування на дотик</string>
+    <string name="high_touch_polling_rate_summary">Підвищити частоту опитування сенсорного екрана</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Налаштовувати екран залежно від часу доби і умов освітлення для підвищення зручності читання і зменшення втоми очей</string>
+    <string name="live_display_mode">Режим відображення</string>
+    <string name="live_display_color_temperature_title">Колірна температура</string>
+    <string name="live_display_color_temperature_summary">День: <xliff:g id="day_temperature">%1$d </xliff:g>K, ніч: <xliff:g id="night_temperature">%2$d </xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">День</string>
+    <string name="live_display_night">Ніч</string>
+    <string name="live_display_outdoor_mode_title">Автоматичний режим на вулиці</string>
+    <string name="live_display_outdoor_mode_summary">Збільшити яскравість та насиченість автоматично при яскравому сонячному світлі</string>
+    <string name="live_display_anti_flicker_title">Усунення мерехтіння</string>
+    <string name="live_display_anti_flicker_summary">Запобігає надмірному мерехтінню та зменшує напруження очей в умовах недостатнього освітлення. Це може погіршити точність кольоропередачі та вплинути на відображення деяких елементів.</string>
+    <string name="live_display_low_power_title">Зменшення споживання енергії</string>
+    <string name="live_display_low_power_summary">Налаштування екрану для найнижчого енергоспоживання без погіршення зображення</string>
+    <string name="live_display_enhance_color_title">Покращення кольорів</string>
+    <string name="live_display_enhance_color_summary">Поліпшити насиченість кольору для пастельних тонів, пейзажів і інших зображень</string>
+    <string name="live_display_color_profile_title">Профіль кольорів</string>
+    <string name="live_display_color_profile_standard_title">Стандартний</string>
+    <string name="live_display_color_profile_standard_summary">Точна передача кольору та яскраві білі кольори</string>
+    <string name="live_display_color_profile_natural_title">Природній</string>
+    <string name="live_display_color_profile_natural_summary">Реалістичні кольори та відтінки</string>
+    <string name="live_display_color_profile_dynamic_title">Динамічний</string>
+    <string name="live_display_color_profile_dynamic_summary">Покращені кольори та яскравий білий</string>
+    <string name="live_display_color_profile_cinema_title">Кінотеатр</string>
+    <string name="live_display_color_profile_cinema_summary">Ідеально для відтворення відео</string>
+    <string name="live_display_color_profile_astronomy_title">Астрономія</string>
+    <string name="live_display_color_profile_astronomy_summary">Глибокий червоний для збереження зору вночі</string>
+    <string name="live_display_color_profile_photography_title">Фотографія</string>
+    <string name="live_display_color_profile_photography_summary">Ідеальне кольоровідтворення для світлини</string>
+    <string name="live_display_color_profile_basic_title">Основний</string>
+    <string name="live_display_color_profile_basic_summary">Використовувати невідкалібрований екран</string>
+    <string name="live_display_color_profile_adaptive_title">Адаптивний</string>
+    <string name="live_display_color_profile_adaptive_summary">Адаптація кольору до навколишнього середовища</string>
+    <string name="live_display_color_profile_reading_title">Читання</string>
+    <string name="live_display_color_profile_reading_summary">Теплі кольори для зменшення навантаження на очі</string>
+    <string name="live_display_color_profile_srgb_title">режим sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Кольори відповідно до простору sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">Простір кольору DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Кольори відповідно до простору кольорів DCI-P3</string>
+    <string name="live_display_reading_mode_title">Режим читання</string>
+    <string name="live_display_reading_mode_summary">Режим відтінків сірого для тривалого читання</string>
+    <string name="color_calibration_title">Калібрування кольору</string>
+    <string name="color_calibration_summary">Калібрування кольору на екрані</string>
+    <string name="color_red_title">Червоний</string>
+    <string name="color_green_title">Зелений</string>
+    <string name="color_blue_title">Синій</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Налаштування зображення</string>
+    <string name="picture_adjustment_summary">Налаштування відтінок, насиченість, інтенсивність та контраст</string>
+    <string name="adj_hue_title">Відтінок</string>
+    <string name="adj_saturation_title">Насиченість</string>
+    <string name="adj_intensity_title">Інтенсивність</string>
+    <string name="adj_contrast_title">Контрастність</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Подвійний дотик</string>
+    <string name="doze_double_tap_title">Двічі торкніться, щоб перевірити телефон</string>
+    <string name="doze_double_tap_summary">Перегляд сповіщень подвійним дотиком</string>
+    <!-- QSTile requires unlocking before being accessible -->
+    <string name="qstile_requires_unlocking_title">Secure QS tiles</string>
+    <string name="qstile_requires_unlocking_summary">Require unlocking to use sensitive QS tiles</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Hide on lock screen</string>
+    <string name="power_menu_hide_on_secure_summary">Hide the power menu while on a secure lock screen</string>
 </resources>

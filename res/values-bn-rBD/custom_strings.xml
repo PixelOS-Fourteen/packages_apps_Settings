@@ -61,4 +61,165 @@
     <!-- Smart 5G -->
     <string name="smart_5g_title">স্মার্ট 5G</string>
     <string name="smart_5g_summary">ব্যাটারি ব্যবহার কমাতে স্বয়ংক্রিয়ভাবে 5G এবং 4G-এর মধ্যে পাল্টান</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">অ্যাম্বিয়েন্ট দেখান</string>
+    <string name="doze_gesture_ambient_summary">পুরোপুরি স্ক্রীন চালু হওয়ার পরিবর্তে অ্যাম্বিয়েন্ট ডিসপ্লে দেখান</string>
+    <string name="gesture_wake_ambient">অ্যাম্বিয়েন্ট দেখান</string>
+    <string name="gesture_wake">পুরোপুরি জেগে উঠুন</string>
+    <!-- Max refresh rate -->
+    <string name="max_refresh_rate_title">সর্বোচ্চ রিফ্রেশ রেট</string>
+    <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">সর্বনিম্ন রিফ্রেশ রেট</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Warning: This option may not work properly or lead to data loss and is therefore not recommended!</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">ফিঙ্গারপ্রিন্ট সেন্সরটি আপনার ট্যাবলেটের সামনের দিকে আছে</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">আপনার ডিভাইসের সামনে ফিঙ্গারপ্রিন্ট সেন্সর সনাক্ত করুন।</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">আপনার ফোনের সামনে ফিঙ্গারপ্রিন্ট সেন্সর সনাক্ত করুন।</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">আপনার ট্যাবলেটের পিছনে ফিঙ্গারপ্রিন্ট সেন্সরটি সনাক্ত করুন৷</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">আপনার ডিভাইসের পিছনে ফিঙ্গারপ্রিন্ট সেন্সর সনাক্ত করুন।</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">আপনার ফোনের পিছনে ফিঙ্গারপ্রিন্ট সেন্সরটি সনাক্ত করুন৷</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">আপনার ট্যাবলেটের পাশে ফিঙ্গারপ্রিন্ট সেন্সরটি সনাক্ত করুন৷</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">আপনার ডিভাইসের পাশে ফিঙ্গারপ্রিন্ট সেন্সরটি সনাক্ত করুন।</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">আপনার ফোনের পাশে ফিঙ্গারপ্রিন্ট সেন্সরটি সনাক্ত করুন।</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">আপনার ট্যাবলেটের সামনের সেন্সরে স্পর্শ করুন।</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">আপনার ডিভাইসের সামনের সেন্সরে টিপ দিন</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">আপনার ফোনের সামনের সেন্সরে টিপ দিন</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">আপনার ট্যাবলেটের পিছনের সেন্সরে টিপ দিন</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">আপনার ডিভাইসের পিছনের সেন্সরে টিপ দিন</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">আপনার ফোনের পিছনের সেন্সরে টিপ দিন</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">আপনার ট্যাবলেটের পাশের সেন্সরে টিপ দিন</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">আপনার ডিভাইসের পাশের সেন্সরে টিপ দিন</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">আপনার ফোনের পাশের সেন্সরে টিপ দিন</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">পূর্ণ স্ক্রিন অ্যাপস</string>
+    <string name="display_cutout_force_fullscreen_summary">অ্যাপ্লিকেশনগুলিকে নচ উপেক্ষা করতে বাধ্য করুন</string>
+    <string name="search">অনুসন্ধান করুন</string>
+    <string name="search_apps">অ্যাপ খুঁজুন</string>
+    <string name="application_icon">Application icon</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">সবসময় ফিঙ্গারপ্রিন্ট চালু</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">স্ক্রীন বন্ধ করে আনলক করার অনুমতি দেয়।\nচালু করলে ভুল ক্রমে স্ক্রীন অন হতে পারে।</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">ঘূর্ণন সেটিংস</string>
+    <string name="display_rotation_enabled">স্বতঃ-ঘূর্ণন সক্রিয় আছে</string>
+    <string name="display_rotation_disabled">স্বতঃ-ঘূর্ণন নিষ্ক্রিয় আছে</string>
+    <string name="display_rotation_unit">ডিগ্রী</string>
+    <string name="display_rotation_category_title">ঘুর্ণন মোডস</string>
+    <string name="display_rotation_0_title">০ ডিগ্রী</string>
+    <string name="display_rotation_90_title">৯০ ডিগ্রী</string>
+    <string name="display_rotation_180_title">১৮০ ডিগ্রী</string>
+    <string name="display_rotation_270_title">২৭০ ডিগ্রী</string>
+    <!-- Double tap to sleep on status bar or lockscreen -->
+    <string name="status_bar_double_tap_to_sleep_title">স্লিপ মোডে পাঠাতে ট্যাপ করুন</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Double-tap on the status bar or lockscreen to turn off the display</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">সুরক্ষিত উইন্ডো ফ্লাগ উপেক্ষা করুন</string>
+    <string name="ignore_window_secure_summary">This removes the screenshots and screenrecords limits for all applications. Normally, special applications are replaced with black areas in records. This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Less than 1 Minute</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">আজ %1$s</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">কল চলাকালীন ভাইব্রেশন অপশন</string>
+    <string name="incall_vibrate_connect_title">সংযোগে ভাইব্রেট করুন</string>
+    <string name="incall_vibrate_call_wait_title">কল ওয়েটিং এ ভাইব্রেট</string>
+    <string name="incall_vibrate_disconnect_title">সংযোগ বিচ্ছিন্ন হলে ভাইব্রেট করুন</string>
+    <!-- Battery saver refresh rate -->
+    <string name="battery_saver_refresh_rate_title">রিফ্রেশ রেট কমান</string>
+    <string name="battery_saver_refresh_rate_summary">ব্যাটারি সেভার চালু থাকলে পাওয়ার সাশ্রয় করতে 60 Hz স্ক্রীন রিফ্রেশ রেট ব্যবহার করুন</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Charging control</string>
+    <string name="charging_control_summary">Customize charging schedule and limits for battery</string>
+    <string name="charging_control_enable_title">Enable charging control</string>
+    <string name="charging_control_mode_title">Charging mode</string>
+    <string name="charging_control_mode_auto_title">Automatic schedule</string>
+    <string name="charging_control_mode_auto_summary">Automatically determine when to start charging based on alarms set</string>
+    <string name="charging_control_mode_custom_title">Custom schedule</string>
+    <string name="charging_control_mode_custom_summary">Set a target time to full charge</string>
+    <string name="charging_control_mode_limit_title">Limit charging</string>
+    <string name="charging_control_mode_limit_summary">Limit charging to a certain percentage</string>
+    <string name="charging_control_start_time_title">Start time</string>
+    <string name="charging_control_start_time_summary">Charging control activates when you start charging after %s</string>
+    <string name="charging_control_target_time_title">Target time to full charge</string>
+    <string name="charging_control_target_time_summary">Battery will be fully charged by %s</string>
+    <string name="charging_control_limit_title">Limit</string>
+    <string name="reset">Reset</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">এক শট স্বয়ংক্রিয় উজ্জ্বলতা</string>
+    <string name="auto_brightness_one_shot_summary">উজ্জ্বলতা সামঞ্জস্য শুধুমাত্র স্ক্রীন চালু করার মুহুর্তে ঘটবে</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">উচ্চ স্পর্শ সংবেদনশীলতা</string>
+    <string name="high_touch_sensitivity_summary">টাচস্ক্রীন সংবেদনশীলতা বৃদ্ধি করুন যাতে গ্লাভস পরে ব্যবহার করা যেতে পারে</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">টাচস্ক্রিন হোভারিং</string>
+    <string name="touchscreen_hovering_summary">আপনাকে ওয়েব ব্রাউজার, রিমোট ডেস্কটপ ইত্যাদিতে মাউসের মতো পর্দা ঘোরাতে দেয়</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">উচ্চ স্পর্শ পোলিং হার</string>
+    <string name="high_touch_polling_rate_summary">টাচস্ক্রিন পোলিং হার বাড়ান</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">দিনের সময় এবং পরিবেশের অবস্থার উপর নির্ভর করে রিডিং মোড চালু করূন যাতে আপনার পড়ার জন্য স্ক্রিন অনুকূল হয় এবং চোখের উপর চাপ কমে</string>
+    <string name="live_display_mode">ডিসপ্লে মোড</string>
+    <string name="live_display_color_temperature_title">কালার টেম্পারেচার</string>
+    <string name="live_display_color_temperature_summary">দিন: <xliff:g id="day_temperature">%1$d </xliff:g>K রাত: <xliff:g id="night_temperature">%2$d </xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">দিন</string>
+    <string name="live_display_night">রাত</string>
+    <string name="live_display_outdoor_mode_title">স্বয়ংক্রিয় ভাবে বাইরের মোডে চলে যাবে</string>
+    <string name="live_display_outdoor_mode_summary">রোদে গেলে স্বয়ংক্রিয়ভাবে আলো এবং রঙ এর গাঢতা বৃদ্ধি পাবে</string>
+    <string name="live_display_anti_flicker_title">অ্যান্টি ফ্লিকার</string>
+    <string name="live_display_anti_flicker_summary">ব্যাপক ঝাঁকুনি প্রতিরোধ করুন এবং কম আলোর অবস্থায় চোখের চাপ কমিয়ে দিন। এটি রঙের নির্ভুলতা হ্রাস করতে পারে এবং কিছু আইটেম প্রদর্শিত হওয়ার উপায়কে প্রভাবিত করতে পারে।</string>
+    <string name="live_display_low_power_title">শক্তির ব্যবহার কমান</string>
+    <string name="live_display_low_power_summary">অবক্ষয় ছাড়াই সর্বনিম্ন শক্তি ব্যবহারের জন্য ডিসপ্লে অ্যাডজাস্ট করুন</string>
+    <string name="live_display_enhance_color_title">উন্নত রঙ</string>
+    <string name="live_display_enhance_color_summary">চর্মের বর্ণ, দৃশ্য এবং অন্যান্য ছবির রঙের ভাইব্রেন্স উন্নতি করুন</string>
+    <string name="live_display_color_profile_title">কালার প্রোফাইল</string>
+    <string name="live_display_color_profile_standard_title">সাধারণ</string>
+    <string name="live_display_color_profile_standard_summary">সঠিক রং এবং উজ্জ্বল সাদা</string>
+    <string name="live_display_color_profile_natural_title">স্বাভাবিক</string>
+    <string name="live_display_color_profile_natural_summary">রং এবং শরীরের বাস্তবিক বর্ণ</string>
+    <string name="live_display_color_profile_dynamic_title">ডায়নামিক</string>
+    <string name="live_display_color_profile_dynamic_summary">বর্ধিত রং এবং উজ্জ্বল সাদা</string>
+    <string name="live_display_color_profile_cinema_title">সিনেমা</string>
+    <string name="live_display_color_profile_cinema_summary">ভিডিও করার জন্য পার্ফেক্ট কালার</string>
+    <string name="live_display_color_profile_astronomy_title">অ্যাস্ট্রোনমি</string>
+    <string name="live_display_color_profile_astronomy_summary">রাতের ভাব ধরে রাখার জন্য লাল সংস্করণ</string>
+    <string name="live_display_color_profile_photography_title">ফটোগ্রাফি</string>
+    <string name="live_display_color_profile_photography_summary">ছবির জন্য উপযুক্ত রং পুনরুৎপাদন</string>
+    <string name="live_display_color_profile_basic_title">সাধারণ</string>
+    <string name="live_display_color_profile_basic_summary">ডিসপ্লেটি আনক্যালিব্রেট হিসাবে ব্যবহার করুন</string>
+    <string name="live_display_color_profile_adaptive_title">মানানসই</string>
+    <string name="live_display_color_profile_adaptive_summary">পারিপার্শ্বিক পরিস্থিতির সাথে রং মানিয়ে নেয়</string>
+    <string name="live_display_color_profile_reading_title">পড়া</string>
+    <string name="live_display_color_profile_reading_summary">চোখের ওপর চাপ কম রাখার জন্য উষ্ণ রং</string>
+    <string name="live_display_color_profile_srgb_title">sRGB মোড</string>
+    <string name="live_display_color_profile_srgb_summary">sRGB রঙের স্পেসে নির্ভুল রং</string>
+    <string name="live_display_color_profile_dci_p3_title">ডিসিআই-পি৩</string>
+    <string name="live_display_color_profile_dci_p3_summary">ডিসিআই-পি৩ রঙের স্পেসে নির্ভুল রং</string>
+    <string name="live_display_reading_mode_title">রিডিং মোড</string>
+    <string name="live_display_reading_mode_summary">দীর্ঘ সময় পড়ার জন্য গ্রেস্কেল মোড</string>
+    <string name="color_calibration_title">কালার ক্যালিব্রেশন</string>
+    <string name="color_calibration_summary">স্ক্রীনের কালার ক্যালিব্রেট করুন</string>
+    <string name="color_red_title">লাল</string>
+    <string name="color_green_title">সবুজ</string>
+    <string name="color_blue_title">নীল</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">ছবি সমন্বয়</string>
+    <string name="picture_adjustment_summary">হিউ, স্যাচুরেশন, প্রাবল্য, এবং কনট্রাস্ট অ্যাডজাস্ট করুন</string>
+    <string name="adj_hue_title">হিউ</string>
+    <string name="adj_saturation_title">সম্পৃক্তি</string>
+    <string name="adj_intensity_title">প্রাবল্য</string>
+    <string name="adj_contrast_title">কনট্রাস্ট</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">ডাবল ট্যাপ</string>
+    <string name="doze_double_tap_title">ফোন চেক করার জন্য দু\'বার ট্যাপ করুন</string>
+    <string name="doze_double_tap_summary">দুইবার ট্যাপ এর মাধ্যমে পালস্ নোটিফিকেশন দেখুন</string>
+    <!-- QSTile requires unlocking before being accessible -->
+    <string name="qstile_requires_unlocking_title">Secure QS tiles</string>
+    <string name="qstile_requires_unlocking_summary">Require unlocking to use sensitive QS tiles</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Hide on lock screen</string>
+    <string name="power_menu_hide_on_secure_summary">Hide the power menu while on a secure lock screen</string>
 </resources>
