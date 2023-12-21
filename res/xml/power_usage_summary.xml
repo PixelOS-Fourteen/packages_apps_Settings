@@ -57,13 +57,6 @@
         android:summary="@string/battery_percentage_description"
         settings:controller="com.android.settings.display.BatteryPercentagePreferenceController" />
 
-    <Preference
-        android:key="charging_control"
-        android:title="@string/charging_control_title"
-        android:summary="@string/charging_control_summary"
-        android:fragment="com.android.settings.lineage.health.ChargingControlSettings"
-        settings:controller="com.android.settings.lineage.health.ChargingControlPreferenceController" />
-
     <!-- QS Battery estimates -->
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="qs_show_battery_estimate"
@@ -71,6 +64,13 @@
         android:summaryOn="@string/qs_show_battery_estimate_summary_on"
         android:summaryOff="@string/qs_show_battery_estimate_summary_off"
         android:defaultValue="true" />
+
+    <Preference
+        android:key="charging_control"
+        android:title="@string/charging_control_title"
+        android:summary="@string/charging_control_summary"
+        android:fragment="com.android.settings.lineage.health.ChargingControlSettings"
+        settings:controller="com.android.settings.lineage.health.ChargingControlPreferenceController" />
 
     <com.android.settingslib.widget.FooterPreference
         android:key="power_usage_footer"
