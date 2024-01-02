@@ -695,13 +695,11 @@
         <SwitchPreference
             android:key="force_resizable_activities"
             android:title="@string/force_resizable_activities"
-            android:defaultValue="true"
             android:summary="@string/force_resizable_activities_summary" />
 
         <SwitchPreference
             android:key="enable_freeform_support"
             android:title="@string/enable_freeform_support"
-            android:defaultValue="true"
             android:summary="@string/enable_freeform_support_summary" />
 
         <SwitchPreference
