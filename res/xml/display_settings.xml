@@ -36,6 +36,14 @@
             android:title="@string/auto_brightness_title"
             android:fragment="com.android.settings.display.AutoBrightnessSettings"
             settings:controller="com.android.settings.display.AutoBrightnessPreferenceController"/>
+
+        <!-- Low Gamma -->
+        <SwitchPreference
+            android:key="toggle_gamma"
+            android:title="@string/low_gamma_title"
+            android:summary="@string/low_gamma_summary"
+            android:defaultValue="false"
+            settings:controller="com.android.settings.display.DisplayGammaCorrectionPreferenceController"/>
     </PreferenceCategory>
 
     <PreferenceCategory
